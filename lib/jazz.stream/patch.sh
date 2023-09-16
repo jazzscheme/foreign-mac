@@ -1,9 +1,6 @@
 #! /bin/sh
 
-APPDIR=../../../..
-. "$APPDIR/.jaz"
-
-JAZZ=$APPDIR/$JAZDEST/jazz
+cd ../../foreign/jazz-stream-mac
 
 GSTREAMERDISTR=/Users/cartier/Devel/gstreamer/gstreamer/distr
 
@@ -17,11 +14,11 @@ cpdistr() {
 
 relocate() {
     echo relocating $1...
-    $JAZZ -run relocate change-name gstreamer lib/$1 $GSTREAMERDISTR @rpath/gstreamer
-    $JAZZ -run relocate change-dependencies gstreamer lib/$1 @rpath @rpath/gstreamer/lib
-    $JAZZ -run relocate change-dependencies gstreamer lib/$1 $GSTREAMERDISTR @rpath/gstreamer
-    $JAZZ -run relocate change-dependencies gstreamer lib/$1 /Library/Frameworks/GStreamer.framework/Versions/1.0 @rpath/gstreamer
-    $JAZZ -run relocate add-rpath gstreamer lib/$1 @loader_path/..
+    jazz -run relocate change-name gstreamer lib/$1 $GSTREAMERDISTR @rpath/gstreamer
+    jazz -run relocate change-dependencies gstreamer lib/$1 @rpath @rpath/gstreamer/lib
+    jazz -run relocate change-dependencies gstreamer lib/$1 $GSTREAMERDISTR @rpath/gstreamer
+    jazz -run relocate change-dependencies gstreamer lib/$1 /Library/Frameworks/GStreamer.framework/Versions/1.0 @rpath/gstreamer
+    jazz -run relocate add-rpath gstreamer lib/$1 @loader_path/..
 }
 
 patch() {
