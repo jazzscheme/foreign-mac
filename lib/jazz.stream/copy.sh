@@ -107,6 +107,7 @@ cplib libMoltenVK.dylib
 cplib libogg.0.dylib
 cplib libopus.0.dylib
 cplib liborc-0.4.0.dylib
+cplib libpcre2-8.0.dylib
 cplib libpng16.16.dylib
 cplib libswresample.4.dylib
 cplib libvorbis.0.dylib
