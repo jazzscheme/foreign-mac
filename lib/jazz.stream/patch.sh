@@ -2,7 +2,7 @@
 
 cd ../../foreign/jazz-stream-mac
 
-GSTREAMERDISTR=/Users/cartier/Devel/gstreamer/gstreamer/distr
+GSTREAMERDISTR=/Users/cartier/Devel/gstreamer/gstreamer-x86/distr
 
 
 cp $GSTREAMERDISTR/include/gstreamer-1.0/gst/app/gstappsrc.h gstreamer/include/gstreamer-1.0/gst/app

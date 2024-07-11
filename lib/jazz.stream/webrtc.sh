@@ -2,8 +2,8 @@
 
 cd ../../foreign/jazz-stream-mac
 
-WEBRTC=/Users/cartier/Devel/gstreamer/webrtc/build
-WEBRTCAUDIOPROCESSING=/Users/cartier/Devel/gstreamer/webrtcaudioprocessing/build/plugin
+WEBRTC=/Users/cartier/Devel/gstreamer/webrtc-x86/build
+WEBRTCAUDIOPROCESSING=/Users/cartier/Devel/gstreamer/webrtcaudioprocessing-x86/build/plugin
 
 
 cp $WEBRTC/libwebrtc.dylib gstreamer/lib
