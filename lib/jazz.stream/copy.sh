@@ -74,10 +74,10 @@ cplib gstreamer-1.0/libgstvolume.dylib
 cplib gstreamer-1.0/libgstvorbis.dylib
 cplib gstreamer-1.0/libgstwavparse.dylib
 cplib gstreamer-1.0/libgstx264.dylib
-cplib libavcodec.59.dylib
-cplib libavfilter.8.dylib
-cplib libavformat.59.dylib
-cplib libavutil.57.dylib
+cplib libavcodec.60.dylib
+cplib libavfilter.9.dylib
+cplib libavformat.60.dylib
+cplib libavutil.58.dylib
 cplib libbz2.1.dylib
 cplib libffi.7.dylib
 cplib libgio-2.0.0.dylib
