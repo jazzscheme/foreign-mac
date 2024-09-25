@@ -2,7 +2,7 @@
 
 cd ../../foreign/jazz-stream-mac
 
-RNNOISE=/Users/cartier/Devel/gstreamer/rnnoise-x86
+RNNOISE=/Users/live/Devel/gstreamer/rnnoise-x86
 
 
 cp $RNNOISE/rnnoise/mac/lib/librnnoise.0.dylib gstreamer/lib
