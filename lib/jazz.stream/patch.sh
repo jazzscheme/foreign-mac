@@ -34,3 +34,4 @@ patch libgstaudio-1.0.0.dylib
 # patch liborc-0.4.0.dylib
 patch gstreamer-1.0/libgstcoreelements.dylib
 patch gstreamer-1.0/libgstcoretracers.dylib
+patch gstreamer-1.0/libgstproxy.dylib
