@@ -55,6 +55,7 @@ cplib gstreamer-1.0/libgstcoreelements.dylib
 cplib gstreamer-1.0/libgstdeinterlace.dylib
 cplib gstreamer-1.0/libgstflv.dylib
 cplib gstreamer-1.0/libgstid3demux.dylib
+cplib gstreamer-1.0/libgstimagefreeze.dylib
 cplib gstreamer-1.0/libgstisomp4.dylib
 cplib gstreamer-1.0/libgstjpeg.dylib
 cplib gstreamer-1.0/libgstlibav.dylib
@@ -64,6 +65,7 @@ cplib gstreamer-1.0/libgstogg.dylib
 cplib gstreamer-1.0/libgstopus.dylib
 cplib gstreamer-1.0/libgstosxaudio.dylib
 cplib gstreamer-1.0/libgstplayback.dylib
+cplib gstreamer-1.0/libgstpng.dylib
 cplib gstreamer-1.0/libgstproxy.dylib
 cplib gstreamer-1.0/libgstrtmp2.dylib
 cplib gstreamer-1.0/libgstsubparse.dylib
