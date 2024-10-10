@@ -131,3 +131,4 @@ mkdir gstreamer/include
 cp -r $GSTREAMER/include/gstreamer-1.0 gstreamer/include
 cp -r $GSTREAMER/include/glib-2.0 gstreamer/include
 cp -r $GSTREAMER/lib/glib-2.0 gstreamer/lib
+cp -r $GSTREAMER/include/openssl gstreamer/include
